@@ -8,7 +8,7 @@ def most_common_word(text):
     return counter.most_common(1)[0]
 
     # Пример использования:
-if __name__ == "_main__":
+if __name__ == "__main__":
     text = "Привет, мы виделись? Мы знакомы? Мы в целом кто? Кто мы? Кто? Кто? КТО?"
     result = most_common_word(text)
     print(result)
